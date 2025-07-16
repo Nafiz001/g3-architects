@@ -118,8 +118,37 @@ main>section {
 
 }
 
+/* some facts */
 
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 
+}
+.fact{
+  box-sizing: border-box;
+border: 1px solid rgb(255, 144, 14);
+border-radius: 8px;
+width: 240px;
+height: 240px;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.fact-number{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+.fact-description{
+    max-width: 540px;
+}
 #quick-list {
     font-weight: 500;
 }
